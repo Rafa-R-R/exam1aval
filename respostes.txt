@@ -1,10 +1,10 @@
-a) 
+A) 
 git init
 touch readme.txt
 git add *
 git commit -m "afegint readme"
 
-b)
+B)
 touch respostes.txt
 git add *
 git commit -m "afegint respostes"
@@ -12,15 +12,28 @@ git remote add origin https://github.com/Rafa-R-R/exam1aval.git
 git branch -M master
 git push origin master
 
-c) git branch primera
+C) 
+git branch primera
 git switch primera
 
-1) cd /home/alumno
+1)
+cd /home/alumno
 mkdir examen
 
-2) cd examen
+2) 
+cd examen
 
-3) cat -n Alumnos.txt | grep SI$ | awk '{print $1}'
+
+D)
+3)
+ cat -n Alumnos.txt | grep SI$ | awk '{print $1}' > si.txt
+
+
+E)
+4)
+mkdir si
+5)
+mv si.txt ./si
 
 
 
