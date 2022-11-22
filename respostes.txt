@@ -8,3 +8,6 @@ b)
 touch respostes.txt
 git add *
 git commit -m "afegint respostes"
+git remote add origin https://github.com/Rafa-R-R/exam1aval.git
+ git branch -M master
+ git push origin master
