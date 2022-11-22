@@ -66,3 +66,7 @@ sed -i 's/Vicente/Pepe/g' Alumnos.txt
 K)
 9)
 awk '{if( $4>=2010 && $4<=2019 ){ print }}' Alumnos.txt 
+
+L)
+10)
+grep ^J Alumnos.txt | awk '{print $1 " " $2}' | uniq
