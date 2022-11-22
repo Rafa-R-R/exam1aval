@@ -53,4 +53,7 @@ git merge primera
 git tag primera
 git push origin master
 
+I)
+git branch segona
+git switch segona
 
