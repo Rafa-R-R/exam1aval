@@ -74,3 +74,9 @@ grep ^J Alumnos.txt | awk '{print $1 " " $2}' | uniq
 M)
 11)
 grep -P M'\t' du.txt | sort -nr | head -n 3 | awk '{print $2}'
+
+N)
+git switch master
+git merge segona
+git tag segona
+git push origin master
