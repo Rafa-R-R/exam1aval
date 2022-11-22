@@ -51,4 +51,6 @@ git commit "exercici 7"
 git switch master
 git merge primera
 git tag primera
+git push origin master
+
 
