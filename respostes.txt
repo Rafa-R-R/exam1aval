@@ -9,5 +9,17 @@ touch respostes.txt
 git add *
 git commit -m "afegint respostes"
 git remote add origin https://github.com/Rafa-R-R/exam1aval.git
- git branch -M master
- git push origin master
+git branch -M master
+git push origin master
+
+c) git branch primera
+git switch primera
+
+1) cd /home/alumno
+mkdir examen
+
+2) cd examen
+
+3) grep ^.*SI$ Alumnos.txt > si.txt
+
+
