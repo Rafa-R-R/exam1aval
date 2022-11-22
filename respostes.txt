@@ -57,3 +57,8 @@ I)
 git branch segona
 git switch segona
 
+
+J)
+8)
+sed -i 's/Vicente/Pepe/g' Alumnos.txt
+
