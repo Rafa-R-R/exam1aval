@@ -36,4 +36,6 @@ mkdir si
 mv si.txt ./si
 
 
+F)
+6)  tail -n +2 Alumnos.txt | awk '{print $1 " " $2 "-" $5}' 
 
