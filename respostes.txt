@@ -80,3 +80,10 @@ git switch master
 git merge segona
 git tag segona
 git push origin master
+
+O)
+touch secrets.txt
+touch .gitignore
+
+edito gitignore y añado el fichero secrets.txt
+
