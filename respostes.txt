@@ -1,0 +1,10 @@
+a) 
+git init
+touch readme.txt
+git add *
+git commit -m "afegint readme"
+
+b)
+touch respostes.txt
+git add *
+git commit -m "afegint respostes"
