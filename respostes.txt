@@ -40,6 +40,15 @@ F)
 6)  
 tail -n +2 Alumnos.txt | awk '{print $1 " " $2 "-" $5}' 
 
+
+G)
 7) 
 grep González Alumnos.txt | awk '{ print $1 " " $2}'| uniq
+
+H)
+git add *
+git commit "exercici 7"
+git switch master
+git merge primera
+git tag primera
 
