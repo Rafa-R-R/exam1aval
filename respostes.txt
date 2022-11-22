@@ -20,6 +20,7 @@ mkdir examen
 
 2) cd examen
 
-3) grep ^.*SI$ Alumnos.txt > si.txt
+3) cat -n Alumnos.txt | grep SI$ | awk '{print $1}'
+
 
 
